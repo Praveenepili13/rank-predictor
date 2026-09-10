@@ -1,6 +1,23 @@
 {
-  "appId": "com.praveenepili13.rankengine",
-  "appName": "Rank Engine",
+  "appId": "com.praveenepili13.rankcompanion",
+  "appName": "Rank Finder",
   "webDir": "www",
-  "bundledWebRuntime": false
+  "bundledWebRuntime": false,
+  "server": {
+    "androidScheme": "https",
+    "hostname": "localhost",
+    "iosScheme": "capacitor"
+  },
+  "plugins": {
+    "Haptics": {},
+    "StatusBar": {
+      "style": "dark",
+      "backgroundColor": "#171b4d"
+    },
+    "Keyboard": {
+      "resize": "native",
+      "resizeOnFullScreen": true
+    },
+    "Toast": {}
+  }
 }
