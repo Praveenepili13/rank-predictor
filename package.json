@@ -18,14 +18,15 @@
     "build": "echo 'Build complete - serve from www/ directory'"
   },
   "dependencies": {
-    "@capacitor/core": "^5.7.0",
-    "@capacitor/haptics": "^5.7.0",
-    "@capacitor/status-bar": "^5.7.0",
-    "@capacitor/keyboard": "^5.7.0",
-    "@capacitor/toast": "^5.7.0",
-    "@capacitor/preferences": "^5.7.0"
+    "@capacitor/core": "^5.7.8",
+    "@capacitor/haptics": "^5.0.8",
+    "@capacitor/status-bar": "^5.0.8",
+    "@capacitor/keyboard": "^5.0.9",
+    "@capacitor/toast": "^5.0.8",
+    "@capacitor/preferences": "^5.0.8"
   },
   "devDependencies": {
-    "@capacitor/cli": "^5.7.0"
+    "@capacitor/android": "^5.7.8",
+    "@capacitor/cli": "^5.7.8"
   }
 }
