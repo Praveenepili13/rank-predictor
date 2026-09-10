@@ -1,22 +1,49 @@
 {
-  "name": "JEE Rank Engine Pro",
-  "short_name": "RankEngine",
-  "start_url": "/app-for-mobile/",
-  "scope": "/app-for-mobile/",
+  "name": "Rank Companion — JEE Main Rank Predictor",
+  "short_name": "Rank Companion",
+  "description": "A transparent JEE Main rank companion for percentile, marks estimates, category cutoffs, and college options.",
+  "start_url": "/",
   "display": "standalone",
-  "orientation": "portrait",
-  "background_color": "#0b0f19",
-  "theme_color": "#0b0f19",
+  "background_color": "#f4f6fc",
+  "theme_color": "#171b4d",
+  "orientation": "portrait-primary",
+  "scope": "/",
   "icons": [
     {
-      "src": "https://cdn-icons-png.flaticon.com/512/3426/3426653.png",
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 192 192'><rect fill='%23171b4d' width='192' height='192'/><text x='96' y='130' font-size='120' font-weight='800' text-anchor='middle' fill='white' font-family='system-ui'>R</text></svg>",
       "sizes": "192x192",
-      "type": "image/png"
+      "type": "image/svg+xml",
+      "purpose": "any"
     },
     {
-      "src": "https://cdn-icons-png.flaticon.com/512/3426/3426653.png",
-      "sizes": "512x512",
-      "type": "image/png"
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 192 192'><rect fill='%23171b4d' width='192' height='192'/><text x='96' y='130' font-size='120' font-weight='800' text-anchor='middle' fill='white' font-family='system-ui'>R</text></svg>",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 540 720'><rect fill='%23f4f6fc' width='540' height='720'/><text x='270' y='360' font-size='80' text-anchor='middle' fill='%23171b4d'>Rank Companion</text></svg>",
+      "sizes": "540x720",
+      "type": "image/svg+xml",
+      "form_factor": "narrow"
+    }
+  ],
+  "categories": ["education", "productivity"],
+  "shortcuts": [
+    {
+      "name": "Calculate Rank",
+      "short_name": "Calculate",
+      "description": "Quickly calculate your JEE Main rank",
+      "url": "/?mode=percentile",
+      "icons": [
+        {
+          "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 96 96'><rect fill='%235267e8' width='96' height='96' rx='16'/><text x='48' y='65' font-size='60' font-weight='800' text-anchor='middle' fill='white'>R</text></svg>",
+          "sizes": "96x96",
+          "type": "image/svg+xml"
+        }
+      ]
     }
   ]
 }
