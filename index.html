@@ -44,7 +44,7 @@
 
           <!-- Mode Selection -->
           <div class="mode-switch" role="tablist" aria-label="Rank input method">
-            <button class="mode-btn" type="button" data-mode="percentile" role="tab" aria-selected="true">
+            <button class="mode-btn active" type="button" data-mode="percentile" role="tab" aria-selected="true">
               I know my percentile
             </button>
             <button class="mode-btn" type="button" data-mode="marks" role="tab" aria-selected="false">
@@ -80,7 +80,7 @@
           </div>
 
           <!-- Marks Panel -->
-          <div id="marks-panel" class="mode-panel" role="tabpanel">
+          <div id="marks-panel" class="mode-panel" role="tabpanel" style="display: none;">
             <div class="fields">
               <div class="field">
                 <label for="marks">Raw marks (−75 to 300)</label>
@@ -111,7 +111,7 @@
           </div>
 
           <!-- Official AIR Panel -->
-          <div id="official-panel" class="mode-panel" role="tabpanel">
+          <div id="official-panel" class="mode-panel" role="tabpanel" style="display: none;">
             <div class="fields">
               <div class="field full">
                 <label for="officialRank">All India Rank shown on your final scorecard</label>
